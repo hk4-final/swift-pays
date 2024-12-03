@@ -1,0 +1,16 @@
+{
+  "name": "swift-pays",
+  "version": "1.0.0",
+  "description": "Swift Pays documents",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "deploy": "vitepress build && rm -rf /var/www/Swift Pays.docs && cp -r .vitepress/dist /var/www/Swift Pays.docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.4.0"
+  }
+}
